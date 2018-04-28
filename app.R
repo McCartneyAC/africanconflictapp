@@ -9,6 +9,9 @@ library(rsconnect)
 library(DT)
 
 acled<-read_csv("ACLED-Africa_1997-2018.csv")
+# Next Major Update: use RVEST package to 
+# import the ACLED Data on pageload without me 
+# needing to update this regularly. 
 
 ui <- fluidPage( theme = shinytheme ("sandstone"), 
                  
@@ -16,6 +19,7 @@ ui <- fluidPage( theme = shinytheme ("sandstone"),
                  
                  sidebarLayout(
                    sidebarPanel(
+                     tags$h4("Data last updated April 2018"),
                      textInput("maparea", "Map Area - Type Any Location in Africa", "Central African Republic"),
                      sliderInput("zoom", "Zoom Level",
                                  min = 3, max = 21, value = 4),
