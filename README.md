@@ -4,6 +4,8 @@
 
 The deployed version of this R Shiny application is available [here](https://acm9q.shinyapps.io/africanconflictapp/). 
 
+Data last updated 4/27/18.
+
 ## From ACLED:
 
 ACLED (Armed Conflict Location & Event Data Project) is the most comprehensive public collection of political violence and protest data for developing states. This data and analysis project produces information on the specific dates and locations of political violence and protest, the types of event, the groups involved, fatalities, and changes in territorial control. Information is recorded on the battles, killings, riots, and recruitment activities of rebels, governments, militias, armed groups, protesters and civilians.
