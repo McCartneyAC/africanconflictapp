@@ -13,6 +13,10 @@ acled<-read_csv("ACLED-Africa_1997-2018.csv")
 # import the ACLED Data on pageload without me 
 # needing to update this regularly. 
 
+# update update: get_acled() API function in other repo here can be used to pull without using RVEST. 
+# however, some noodling will be required to make it select by continent rather than by country. 
+
+
 ui <- fluidPage( theme = shinytheme ("sandstone"), 
                  
                  titlePanel("Conflict in Africa"),
