@@ -2,6 +2,9 @@
 
 ### An R shiny app to browse ACLED's conflict data (Africa Only)
 
+#### Updates:
+The current version of the app is deprecated due to problems with `ggmap`'s connections with various map-acquisition APIs. The current version under development (not posted yet) will (1) incorporate `leaflet` to make the maps and add much-needed browse-ability, and (2) will incorporate [Jeremy Allen](https://github.com/jeremy-allen/getACLED)'s `get_acled()` function to update the data in real-time rather than requiring me to update the data periodically by hand. 
+
 The deployed version of this R Shiny application is available [here](https://acm9q.shinyapps.io/africanconflictapp/). 
 
 Data last updated 4/27/18.
